@@ -21,14 +21,7 @@ Install Eslint
 For webpack confiugre (this is local file, It doesn't push to remote because it was ruled in .gitignore)
 
 - Goto node_modules/react-scripts/config/webpack.config.js
-- Add `esModule: false,` to
- test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
- loader: require.resolve('url-loader'),
- options: {
-    limit: imageInlineSizeLimit,
-    name: 'static/media/[name].[hash:8].[ext]',
-    esModule: false,
- },
+- Search for `test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],` and add `esModule: false,` in the last options object
 
 # Getting Started with Create React App
 
