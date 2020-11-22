@@ -22,13 +22,13 @@ For webpack confiugre (this is local file, It doesn't push to remote because it 
 
 - Goto node_modules/react-scripts/config/webpack.config.js
 - Add `esModule: false,` to
-  test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-  loader: require.resolve('url-loader'),
-  options: {
-  limit: imageInlineSizeLimit,
-  name: 'static/media/[name].[hash:8].[ext]',
-  esModule: false,
-  },
+ test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+ loader: require.resolve('url-loader'),
+ options: {
+    limit: imageInlineSizeLimit,
+    name: 'static/media/[name].[hash:8].[ext]',
+    esModule: false,
+ },
 
 # Getting Started with Create React App
 
