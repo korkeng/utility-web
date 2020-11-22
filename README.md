@@ -1,3 +1,35 @@
+# Setting up the environment
+
+Install npm / node / yarn
+
+- Download from https://www.npmjs.com/get-npm or https://classic.yarnpkg.com/en/
+
+Install typescript via command
+
+- `npm install typescript`
+
+Install Prettier
+
+- Search for 'Prettier - Code Formatter' in VSCode Extension or
+  `ext install esbenp.prettier-vscode` by used quick open (Ctrl+P)
+- Install plugin using `npm install prettier -D --save-exact` via Command prompt
+
+Install Eslint
+
+- `npm install eslint`
+
+For webpack confiugre (this is local file, It doesn't push to remote because it was ruled in .gitignore)
+
+- Goto node_modules/react-scripts/config/webpack.config.js
+- Add `esModule: false,` to
+  test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+  loader: require.resolve('url-loader'),
+  options: {
+  limit: imageInlineSizeLimit,
+  name: 'static/media/[name].[hash:8].[ext]',
+  esModule: false,
+  },
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
