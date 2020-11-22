@@ -1,10 +1,12 @@
 import React from 'react';
 import './HomePage.css';
+import NavigationBar from '../../components/NavigationBar';
 
 const App = () => {
   return (
     <div className="HomePage">
-      <div>Hello World</div>
+      <div></div>
+      <NavigationBar />
     </div>
   );
 };
