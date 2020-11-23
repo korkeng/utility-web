@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 
-const App = () => {
+const HomePage = () => {
   return (
     <div className="HomePage">
       <div>Hello World</div>
@@ -9,4 +9,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default HomePage;

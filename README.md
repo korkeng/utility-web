@@ -20,8 +20,11 @@ Install Eslint
 
 For webpack confiugre (this is local file, It doesn't push to remote because it was ruled in .gitignore)
 
-- Goto node_modules/react-scripts/config/webpack.config.js
+- 1. Goto node_modules/react-scripts/config/webpack.config.js
 - Search for `test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],` and add `esModule: false,` in the last options object
+- Find `babelrc: false,` in `test: /\.(js|mjs|jsx|ts|tsx)$/,` topic then change it to `true`
+- 2. Goto node_modules/react-scripts/scripts/utils/verifyTypeScriptSetup.js
+- Find `paths: { value: undefined, reason: 'aliased imports are not supported' },` replace with `paths: { suggested: { 'src/*': ['src/*'] }, reason: 'aliased imports are not supported' },`
 
 # Getting Started with Create React App
 
