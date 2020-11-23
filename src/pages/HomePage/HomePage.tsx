@@ -2,7 +2,7 @@ import React from 'react';
 import './HomePage.css';
 import NavigationBar from '../../components/NavigationBar';
 
-const App = () => {
+const HomePage = () => {
   return (
     <div className="HomePage">
       <div></div>
@@ -11,4 +11,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default HomePage;

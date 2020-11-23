@@ -1,0 +1,24 @@
+{
+  "plugins": 
+  [
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "src/components/index",
+            "rootPathPrefix": "@web-components"
+          },
+          {
+            "rootPathSuffix": "src/pages/index",
+            "rootPathPrefix": "@web-pages"
+          },
+          {
+            "rootPathSuffix": "src/constants/index",
+            "rootPathPrefix": "@web-constants"
+          }
+        ]
+      }
+    ]
+  ]
+}

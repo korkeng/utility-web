@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": "",
+        "paths": {
+            "@web-components": ["src/components/index"],
+            "@web-pages": ["src/pages/index"],
+            "@web-constants": ["src/constants/index"]
+        }
+    }
+}
