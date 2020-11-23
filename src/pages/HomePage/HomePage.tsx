@@ -1,10 +1,11 @@
 import React from 'react';
+import { NavigationBar } from '@web-components';
 import './HomePage.css';
 
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <div>Hello World</div>
+      <NavigationBar />
     </div>
   );
 };

@@ -16,6 +16,10 @@
           {
             "rootPathSuffix": "src/constants/index",
             "rootPathPrefix": "@web-constants"
+          },
+          {
+            "rootPathSuffix": "src/assets/index",
+            "rootPathPrefix": "@web-assets"
           }
         ]
       }

@@ -4,7 +4,8 @@
         "paths": {
             "@web-components": ["src/components/index"],
             "@web-pages": ["src/pages/index"],
-            "@web-constants": ["src/constants/index"]
+            "@web-constants": ["src/constants/index"],
+            "@web-assets": ["src/assets/index"]
         }
     }
 }
