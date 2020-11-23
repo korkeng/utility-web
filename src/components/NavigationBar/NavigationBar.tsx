@@ -1,17 +1,17 @@
 import React from 'react';
+import { Images } from '@web-assets';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
-  const logo = require('../assets/images/text.jpg');
   return (
     <div className="container">
       <nav className="navbar">
         <div className="logo">
-          <a href="#">
-            <img src={logo} />
+          <a href="/#">
+            <img src={Images.icLogo} alt="" />
           </a>
         </div>
-        <a href="#" className="toggle-button">
+        <a href="/#" className="toggle-button">
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
@@ -19,16 +19,16 @@ const NavigationBar = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/#">Home</a>
             </li>
             <li>
-              <a href="#">Ragnarok</a>
+              <a href="/#">Ragnarok</a>
             </li>
             <li>
-              <a href="#">Pangya</a>
+              <a href="/#">Pangya</a>
             </li>
             <li>
-              <a href="#">Sign Up</a>
+              <a href="/#">Sign Up</a>
             </li>
             <li>
               <button className="log-in">Sign In</button>
