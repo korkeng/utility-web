@@ -1,8 +1,11 @@
 import React from 'react';
 import { Images } from '@web-assets';
+import { useTranslation } from 'react-i18next';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="container">
       <nav className="navbar">
@@ -19,19 +22,19 @@ const NavigationBar = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <a href="/#">Home</a>
+              <a href="/#">{t('navigation_menu.home')}</a>
             </li>
             <li>
-              <a href="/#">Ragnarok</a>
+              <a href="/#">{t('navigation_menu.ragnarok_game')}</a>
             </li>
             <li>
-              <a href="/#">Pangya</a>
+              <a href="/#">{t('navigation_menu.pangya_game')}</a>
             </li>
             <li>
-              <a href="/#">Sign Up</a>
+              <a href="/#">{t('navigation_menu.register')}</a>
             </li>
             <li>
-              <button className="log-in">Sign In</button>
+              <button className="log-in">{t('navigation_menu.login')}</button>
             </li>
           </ul>
         </div>

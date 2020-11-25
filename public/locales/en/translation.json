@@ -1,5 +1,9 @@
 {
-    "homepage": {
-        "welcome_message": "Hello Welcome"
+    "navigation_menu": {
+        "home": "Home",
+        "ragnarok_game": "Ragnarok",
+        "pangya_game": "Pangya",
+        "register": "Sign Up",
+        "login": "Sign In"
     }
 }

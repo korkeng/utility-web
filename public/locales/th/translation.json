@@ -1,5 +1,9 @@
 {
-    "homepage": {
-        "welcome_message": "สวัสดี ยินดีต้อนรับ"
+    "navigation_menu": {
+        "home": "หน้าหลัก",
+        "ragnarok_game": "แร็คนาร็อก",
+        "pangya_game": "ปังย่า",
+        "register": "สมัครสมาชิก",
+        "login": "เข้าสู่ระบบ"
     }
 }
