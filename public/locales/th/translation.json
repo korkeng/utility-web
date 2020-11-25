@@ -1,4 +1,8 @@
 {
+    "language_switch":{
+        "english": "อังกฤษ",
+        "thai": "ไทย"
+    },
     "navigation_menu": {
         "home": "หน้าหลัก",
         "ragnarok_game": "แร็คนาร็อก",
