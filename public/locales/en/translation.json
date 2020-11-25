@@ -1,4 +1,8 @@
 {
+    "language_switch":{
+        "english": "EN",
+        "thai": "TH"
+    },
     "navigation_menu": {
         "home": "Home",
         "ragnarok_game": "Ragnarok",
