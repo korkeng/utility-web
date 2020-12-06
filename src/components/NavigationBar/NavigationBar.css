@@ -32,6 +32,14 @@
   object-fit: cover;
 }
 
+.navbar .language-list {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .navbar .navbar-links {
   margin: 0px 15px;
 }
