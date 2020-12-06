@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div className="container">
@@ -35,6 +35,22 @@ const NavigationBar = () => {
             </li>
             <li>
               <button className="log-in">{t('navigation_menu.login')}</button>
+            </li>
+            <li className="language-list">
+              <img
+                src={Images.icLanguageEN}
+                width="25px"
+                height="20px"
+                alt=""
+                onClick={() => i18n.changeLanguage('en')}
+              />
+              <img
+                src={Images.icLanguageTH}
+                width="25px"
+                height="20px"
+                alt=""
+                onClick={() => i18n.changeLanguage('th')}
+              />
             </li>
           </ul>
         </div>
